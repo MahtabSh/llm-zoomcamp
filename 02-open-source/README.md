@@ -30,7 +30,21 @@ This project is a Retrieval-Augmented Generation (RAG) based FAQ system that use
     docker-compose up -d
     ```
 
-3. **Index the documents**:
+4. **Install the phi3 model in Ollama**:
+
+    First, enter the Ollama container:
+
+    ```bash
+    docker exec -it ollama bash
+    ```
+
+    Then, pull the phi3 model:
+
+    ```bash
+    ollama pull phi3
+    ```
+
+5. **Index the documents**:
 
     Place your `documents.json` file in the same directory as `load_documents.py` and run:
 
@@ -38,7 +52,7 @@ This project is a Retrieval-Augmented Generation (RAG) based FAQ system that use
     python load_documents.py
     ```
 
-4. **Run the Streamlit application**:
+6. **Run the Streamlit application**:
 
     ```bash
     streamlit run qa_faq.py
