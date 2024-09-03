@@ -25,6 +25,7 @@ This project is a Course Assistant application that leverages various AI models 
 
 ## Project Structure
 
+```plaintext
 ├── app.py                   # Streamlit application entry point
 ├── assistant.py             # Core logic for handling queries and interacting with AI models
 ├── db.py                    # Database operations (PostgreSQL)
@@ -65,15 +66,15 @@ This project is a Course Assistant application that leverages various AI models 
         Run the prep.py script to set up indices and load data into Elasticsearch:
            python prep.py
 ## Usage
-1. Run the Streamlit application:
-   streamlit run app.py
-2. Interact with the application:
-    - Select a course, choose a model, and type in your question.
-    - The assistant will provide an answer based on the selected options.
-    - You can provide feedback on the relevance of the answer, which will be stored in the database.
-3. Generate Synthetic Data:
-   To generate historical and live data for testing, run:
-      python generate_data.py
+    1. Run the Streamlit application:
+    streamlit run app.py
+    2. Interact with the application:
+        - Select a course, choose a model, and type in your question.
+        - The assistant will provide an answer based on the selected options.
+        - You can provide feedback on the relevance of the answer, which will be stored in the database.
+    3. Generate Synthetic Data:
+    To generate historical and live data for testing, run:
+        python generate_data.py
 
 
 
