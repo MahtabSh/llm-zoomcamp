@@ -34,7 +34,7 @@ This project is a Course Assistant application that leverages various AI models 
 ├── requirements.txt         # Python dependencies
 ├── .env                     # Environment variables
 └── README.md                # Project documentation
-
+```
 
 ## File Descriptions
 - **app.py**: The main Streamlit app where users interact with the Course Assistant.
