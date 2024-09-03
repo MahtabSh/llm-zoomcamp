@@ -1,5 +1,5 @@
 ### 1. Offline RAG Evaluation
-    This project focuses on evaluating the performance of a Retrieval-Augmented Generation (RAG) system using Elasticsearch. The RAG approach enhances the capabilities of generative models by incorporating relevant information retrieved from a document corpus, making it particularly useful in scenarios where the model needs to answer questions based on external knowledge.
+This project focuses on evaluating the performance of a Retrieval-Augmented Generation (RAG) system using Elasticsearch. The RAG approach enhances the capabilities of generative models by incorporating relevant information retrieved from a document corpus, making it particularly useful in scenarios where the model needs to answer questions based on external knowledge.
 
 - **File**: `offline-rag-evaluation.ipynb`
 - **Description**: This notebook is designed to evaluate the retrieval component of a RAG system in an offline environment. It includes:
